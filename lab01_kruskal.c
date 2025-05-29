@@ -32,8 +32,8 @@ void kruskal() {
     int i, v1, v2, root[MAX], edge, count = 0;
     for (i = 1; i <= n; i++)
         root[i] = i;
-    i = 0;
 
+    i = 0;
     while (i != n - 1) {
         findmin(&v1, &v2);
         edge = a[v1][v2];

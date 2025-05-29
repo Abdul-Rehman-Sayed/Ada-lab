@@ -1,8 +1,8 @@
 #include <stdio.h>
 #define INFINITY 99
 void dijkstra(int);
-void printpath(int);
 int MinVertex();
+void printpath(int);
 int dist[10], p[10], visit[10]; // p -> penultimate vertex
 int wt[10][10], n, edge;
 
